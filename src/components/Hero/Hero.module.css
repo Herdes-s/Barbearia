@@ -2,7 +2,7 @@
 
 .sectionHero {
     position: relative;
-    background: url(../../barbearia.jpg) center center no-repeat;
+    background: url(../../assets/barbearia.jpg) center center no-repeat;
     background-size: cover;
 
     height: 100vh;

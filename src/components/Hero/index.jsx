@@ -1,5 +1,5 @@
 import Header from "../Header";
-import seta from "../../Arrow1.svg"
+import seta from "../../assets/Arrow1.svg"
 
 import styles from "./Hero.module.css"
 
