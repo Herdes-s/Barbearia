@@ -7,7 +7,9 @@ function About() {
   return (
     <section className={styles.sectionAbout}>
       <div className={styles.card}>
-        <img src={barber} alt="barbearia" />
+        <div className={styles.cardImg}>
+          <img src={barber} alt="barbearia" />
+        </div>
         <div className={styles.cardInfo}>
           <h2 className={styles.nameSect}>Sobre nois</h2>
           <p className={styles.aboutSect}>

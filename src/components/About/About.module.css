@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .sectionAbout {
-    height: 100vh;
 
     font-family: "Montserrat", sans-serif;
 
@@ -15,8 +14,14 @@
 
 }
 
+.card .cardImg {
+    flex: 1;
+}
+
 .card img {
-    width: 632px;
+    width: 100%;
+    height: auto;
+    display: block;
 
     border: 12px solid #94710F;
     border-radius: 12px;
@@ -29,7 +34,7 @@
     align-items: flex-start;
     justify-content: center;
 
-    width: 580px;
+    max-width: 580px;
     margin-left: 84px;
 }
 
@@ -54,7 +59,7 @@
 
 .cardGrid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     margin-top: 68px;
 }
 
@@ -63,6 +68,8 @@
     padding: 24px;
 
     border-radius: 12px;
+
+    margin-bottom: 24px;
 
     display: flex;
     flex-direction: column;
@@ -81,9 +88,30 @@
 }
 
 .cardGrid .qualities p {
-    width: 310px;
+    max-width: 310px;
     font-size: 1em;
     color: #fff;
-
+    
     text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card img {
+        border: 8px solid #94710F;
+    }
+    
+    .cardInfo {
+        margin-left: 0;
+        margin-top: 24px;
+        width: 100%;
+    }
+
+    .sectionAbout {
+        padding: 60px 20px;
+    }
+
 }
