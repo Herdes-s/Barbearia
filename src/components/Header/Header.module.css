@@ -38,3 +38,14 @@
   transform: translateY(-2px);
   color: #ac8211;
 }
+
+@media (max-width: 786px) {
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .nav {
+    display: none;
+  }
+}
