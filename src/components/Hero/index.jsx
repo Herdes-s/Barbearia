@@ -5,7 +5,7 @@ import styles from "./Hero.module.css"
 
 function Hero() {
     return (
-        <section className={styles.sectionHero}>
+        <section className={styles.sectionHero} id="home">
             <div className={styles.overlay}></div>
             <Header />
             <div className={styles.info}>

@@ -5,11 +5,11 @@ import msg from "../../assets/msg.svg";
 
 function Contact() {
   return (
-    <section className={styles.section_contact}>
+    <section className={styles.section_contact} id="contato">
       <div className={styles.sec_contact}>
         <h2 className={styles.title}>Contate-nos</h2>
         <div className={styles.container}>
-          <div>
+          <div className={styles.time_box}>
             <div className={styles.box_info}>
               <h3>Atendimento</h3>
               <h4>Segunda á Sexta</h4>
@@ -26,9 +26,9 @@ function Contact() {
           </div>
           <div className={styles.redes}>
             <p>Entre em contato agora mesmo</p>
-            <button>
+            <button className={styles.contrast}>
+              Falar no WhatsApp
               <img src={msg} alt="icone de mensagem" />
-              WhatsApp
             </button>
             <button>Instagram</button>
             <button>YouTube</button>

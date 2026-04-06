@@ -5,7 +5,7 @@ import verificado from "../../assets/verificado.svg";
 
 function About() {
   return (
-    <section className={styles.sectionAbout}>
+    <section className={styles.sectionAbout} id="sobre">
       <div className={styles.sec_about}>
         <div className={styles.card}>
           <div className={styles.cardImg}>

@@ -8,7 +8,7 @@ import sobrancelha from "../../assets/sobrancelha.png"
 
 function Services() {
     return (
-        <section className={styles.sectionSenvices}>
+        <section className={styles.sectionSenvices} id="servicos">
             <div className={styles.sec_services}>
                 <div className={styles.cardHero}>
                     <h2>Nossos Serviços</h2>
