@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 .sectionAbout {
-  font-family: "Montserrat", sans-serif;
-
   background: linear-gradient(to top, #1a1a1a, #111);
   padding: 3.75rem 1.25rem;
 }
@@ -30,7 +26,7 @@
 
   margin-inline: auto;
 
-  border: 0.75rem solid #94710f;
+  border: 2px solid #94710f;
   border-radius: 0.75rem;
 }
 
@@ -45,7 +41,7 @@
 }
 
 .cardInfo .nameSect {
-  font-size: clamp(1.25rem, 5vw, 3rem);
+  font-size: clamp(1.25rem, 0.3282rem + 3.5623vw, 3rem);
 
   margin-bottom: 3.125rem;
 
@@ -53,7 +49,7 @@
 }
 
 .cardInfo .aboutSect {
-  font-size: clamp(0.75rem, 2.5vw, 1.3rem);
+  font-size: 1rem;
   font-weight: 300;
 
   color: #fff;
@@ -89,14 +85,14 @@
   align-items: center;
   gap: 8px;
   color: #94710f;
-  font-size: 1.2rem;
+  font-size: clamp(1.125rem, 0.708rem + 2.08vw, 2.375);
 
   margin-bottom: 12px;
 }
 
 .cardGrid .qualities p {
   max-width: 310px;
-  font-size: 1em;
+  font-size: 1rem;
   color: #fff;
 
   text-align: justify;
