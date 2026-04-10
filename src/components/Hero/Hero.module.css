@@ -49,20 +49,24 @@
 
   cursor: pointer;
 
-  background: #94710f;
-  color: black;
+  background: #cc9b14;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
   padding: 0.75rem 1.5rem;
-
+  
   border-radius: 1.75rem;
   border: none;
-
+  
   transition: all 0.3s ease;
-
+  
   z-index: 2;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
 }
 
 .btn:hover {

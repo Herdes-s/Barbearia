@@ -113,7 +113,7 @@
 }
 
 .redes button img {
-  width: clamp(1.25rem, 5vw, 2.75rem);
+  width: clamp(1.25rem, 3vw + 46rem, 2.75rem);
 }
 
 .redes .contrast {

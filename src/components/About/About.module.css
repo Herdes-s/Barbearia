@@ -8,6 +8,10 @@
   margin-inline: auto;
 }
 
+.sec_about span {
+  font-weight: 600;
+}
+
 .card {
   display: flex;
   flex-direction: column;
