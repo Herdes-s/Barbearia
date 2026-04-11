@@ -1,10 +1,23 @@
 import styles from "./Header.module.css";
 
 import menu from "../../assets/menu.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Header() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const html = document.documentElement;
+    const body = document.body;
+
+    if (open) {
+      html.style.overflow = "hidden";
+      body.style.overflow = "hidden";
+    } else {
+      html.style.overflow = "";
+      body.style.overflow = "";
+    }
+  }, [open]);
 
   return (
     <header className={styles.header}>
