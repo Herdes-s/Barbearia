@@ -1,6 +1,6 @@
 .section_contact {
   background: linear-gradient(to bottom, #1a1a1a, #111111);
-  padding: 3.75rem 1.5rem;
+  padding: 3rem 1rem;
 }
 
 .sec_contact {
@@ -9,10 +9,10 @@
 }
 
 .sec_contact .title {
-  font-size: clamp(1.25rem, 0.3282rem + 3.5623vw, 3rem);
+  font-size: var(--font-size-title);;
   color: #94710f;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .container {
@@ -25,7 +25,6 @@
   flex: 2;
 
 }
-
 
 .sec_contact .box_info {
   width: min(800px, 100%);
