@@ -2,6 +2,7 @@ import styles from "./About.module.css";
 
 import barber from "../../assets/barber.jpg";
 import verificado from "../../assets/verificado.svg";
+import FadeIn from "../../Hooks/Fade-in";
 
 function About() {
   return (
@@ -9,16 +10,23 @@ function About() {
       <div className={styles.sec_about}>
         <div className={styles.card}>
           <div className={styles.cardImg}>
+          <FadeIn delay={150}>
             <img src={barber} alt="barbearia" />
+          </FadeIn>
           </div>
           <div className={styles.cardInfo}>
+            <FadeIn delay={300}>
             <h2 className={styles.nameSect}>Sobre nois</h2>
+            </FadeIn>
+            <FadeIn delay={450}>
             <p className={styles.aboutSect}>
               Há <span>duas décadas</span>, transformamos o ato de barbear em um ritual de respeito e tradição. <span>O Cavalheiro</span> nasceu da paixão pela cutelaria clássica e evoluiu acompanhando as tendências de cada geração, sem nunca perder a essência. São <span>20 anos</span> dedicados a entender que um bom corte é, acima de tudo, o reflexo da personalidade de quem o carrega. Aqui, o tempo passa devagar para que cada detalhe receba a atenção que você merece.
             </p>
+            </FadeIn>
           </div>
         </div>
         <div className={styles.cardGrid}>
+          <FadeIn delay={600}>
           <div className={styles.qualities}>
             <h3 className={styles.qualitiesTitle}>
               <img src={verificado} alt="icon_verificado" />
@@ -29,6 +37,8 @@ function About() {
               em cada fio.
             </p>
           </div>
+          </FadeIn>
+          <FadeIn delay={750}>
           <div className={styles.qualities}>
             <h3 className={styles.qualitiesTitle}>
               <img src={verificado} alt="icon_verificado" />
@@ -39,6 +49,8 @@ function About() {
               conversa é franca.
             </p>
           </div>
+          </FadeIn>
+          <FadeIn delay={900}>
           <div className={styles.qualities}>
             <h3 className={styles.qualitiesTitle}>
               <img src={verificado} alt="icon_verificado" />
@@ -49,6 +61,7 @@ function About() {
               com sua barba e pele.
             </p>
           </div>
+          </FadeIn>
         </div>
       </div>
     </section>
