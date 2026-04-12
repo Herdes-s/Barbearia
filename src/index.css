@@ -7,6 +7,10 @@
   --font-secondary: "Open Sans", sans-serif;
   --font-logo: "Playfair Display", serif;
 
+  --text-color: 148, 113, 15;     /*Dourado*/
+  --color-neutre-f: 255, 255, 255;  /*Branco*/
+  --color-neutre-0: 0, 0, 0;         /*Preto*/
+
   --font-size-title: clamp(1.5rem, 3.05vw + 0.71rem, 3rem);
 }
 

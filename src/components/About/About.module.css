@@ -32,7 +32,7 @@
   margin-inline: auto;
   margin-bottom: 1rem;
 
-  border: 2px solid #94710f;
+  border: 2px solid rgb(var(--text-color));
   border-radius: 0.75rem;
 }
 
@@ -47,7 +47,7 @@
 
   order: 1;
 
-  color: #94710f;
+  color: rgb(var(--text-color));
 }
 
 .cardInfo .aboutSect {
@@ -55,7 +55,7 @@
   font-weight: 300;
 
   order: 3;
-  color: #fff;
+  color: rgb(var(--color-neutre-f));
 
   line-height: 1.6;
 
@@ -70,7 +70,11 @@
 }
 
 .cardGrid .qualities {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.45));
+  background: linear-gradient(
+    to top,
+    rgba(var(--color-neutre-0), 0.28),
+    rgba(var(--color-neutre-0), 0.45)
+  );
   padding: 1.5rem;
 
   border-radius: 0.75rem;
@@ -95,7 +99,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #94710f;
+  color: rgb(var(--text-color));
   font-size: clamp(1.125rem, 0.708rem + 2.08vw, 2.375);
 
   margin-bottom: 12px;

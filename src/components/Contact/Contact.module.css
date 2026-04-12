@@ -10,7 +10,7 @@
 
 .sec_contact .title {
   font-size: var(--font-size-title);;
-  color: #94710f;
+  color: rgb(var(--text-color));
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -29,8 +29,8 @@
 .sec_contact .box_info {
   width: min(800px, 100%);
   margin-inline: auto;
-  border: #94710f 2px solid;
-  background: rgba(0, 0, 0, 0.36);
+  border: rgb(var(--text-color)) 2px solid;
+  background: rgba(var(--color-neutre-0), 0.36);
   padding: 1.75rem;
   text-align: center;
   border-radius: 1rem;
@@ -40,18 +40,18 @@
 }
 
 .sec_contact .box_info:hover {
-  box-shadow: 0 0 8px #94710f;
+  box-shadow: 0 0 8px rgb(var(--text-color));
 }
 
 .sec_contact .box_info h3 {
   font-size: clamp(1.25rem, 0.75rem + 2vw, 2.25rem);
-  color: #94710f;
+  color: rgb(var(--text-color));
   margin-bottom: 2rem;
 }
 
 .sec_contact .box_info .locate {
   font-size: clamp(1.25rem, 0.75rem + 2vw, 2.25rem);
-  color: #94710f;
+  color: rgb(var(--text-color));
 
   display: flex;
   align-items: center;
@@ -65,21 +65,21 @@
 
 .sec_contact .box_info h4 {
   font-size: 1rem;
-  color: #fff;
+  color: rgb(var(--color-neutre-f));
   margin-bottom: 1.5rem;
 }
 
 .sec_contact .box_info .hora {
   font-size: clamp(1.5rem, 1rem + 2vw, 2.5rem);
   font-weight: 500;
-  color: #94710f;
+  color: rgb(var(--text-color));
   margin-bottom: 1.5rem;
 }
 
 .line {
   width: 80%;
   height: 1px;
-  background: #94710f;
+  background: rgb(var(--text-color));
   margin-inline: auto;
   margin-block: 1.5rem;
 }
@@ -94,7 +94,7 @@
 
 .redes p {
   font-size: 1rem;
-  color: #94710f;
+  color: rgb(var(--text-color));
   text-align: center;
 }
 
@@ -106,12 +106,12 @@
   width: clamp(12.5rem, 5.5rem + 28vw, 30rem);
   height: clamp(2.875rem, 2.125rem + 3vw, 4.375rem);
   border-radius: 3rem;
-  border: 1px solid #94710f;
-  background: rgba(0, 0, 0, 0.36);
-  color: #94710f;
+  border: 1px solid rgb(var(--text-color));
+  background: rgba(var(--color-neutre-0), 0.36);
+  color: rgb(var(--text-color));
   cursor: pointer;
 
-  box-shadow: 0 0 4px #94710f;
+  box-shadow: 0 0 4px rgb(var(--text-color));
 
   transition: all .3s ease;
 }
@@ -127,7 +127,7 @@
 .redes .contrast {
   background: rgba(52, 196, 44, 0.35);
   border: 1px solid rgba(13, 255, 0, 0.35);
-  color: #fff;
+  color: rgb(var(--color-neutre-f));
   box-shadow: 0 0 4px rgba(13, 255, 0, 0.35);
 
   display: flex;
