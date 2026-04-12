@@ -23,7 +23,9 @@
 
 .time_box {
   flex: 2;
+
 }
+
 
 .sec_contact .box_info {
   width: min(800px, 100%);
@@ -33,6 +35,13 @@
   padding: 1.75rem;
   text-align: center;
   border-radius: 1rem;
+
+  transition: box-shadow .3s ease;
+
+}
+
+.sec_contact .box_info:hover {
+  box-shadow: 0 0 8px #94710f;
 }
 
 .sec_contact .box_info h3 {
