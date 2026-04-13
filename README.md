@@ -1,6 +1,10 @@
-# Barbearia - Projeto React v1
+# Barbearia - Projeto React v2
 
+### V1
 Projeto front-end desenvolvido com React de um site de barbearia, o objetivo foi criar um site no qual os clientes podem ver os serviços e entrar em contato por qualqueer meio de contato.
+
+### V2
+Ná verção 2 foram adicionados varios ajustes para melhor imerção no site como: menu mobile, hovers, botão fixo do whatsApp, animações, ajustes de tamanhos, melhoria na responsividade e fontes mais tematicas.
 
 ![site barbearia](./src/assets/img_barbearia.png)
 
@@ -30,6 +34,7 @@ Desenvolver um site para ver serviços e entrar em contato, foco em UX (Experien
     * About
     * Services
     * Contact
+    * Footer
 
 ---
 
