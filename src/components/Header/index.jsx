@@ -1,6 +1,8 @@
 import styles from "./Header.module.css";
 
 import menu from "../../assets/menu.svg";
+import close from "../../assets/close.svg";
+
 import { useEffect, useState } from "react";
 
 function Header() {
@@ -39,7 +41,7 @@ function Header() {
           </a>
         </nav>
         <div className={`${styles.menu}`} onClick={() => setOpen(!open)}>
-          <img src={menu} alt="menu" />
+          <img src={`${open ? close : menu}`} alt="menu" />
         </div>
       </div>
     </header>
